@@ -1,0 +1,46 @@
+SEVENTY-THREE: VERSIÓN INSTALABLE QUE FUNCIONA SIN INTERNET
+==========================================================
+
+Esta carpeta es la app completa. Para usarla en el móvil hay que subirla una vez
+a un alojamiento web gratuito. Después se instala en la pantalla de inicio y
+funciona sin conexión.
+
+Por qué hace falta subirla: los móviles solo dejan instalar y usar sin internet
+una web que se sirva por https. Abrir index.html directamente desde el disco no
+funciona.
+
+
+OPCIÓN 1: NETLIFY (la más fácil, gratis)
+----------------------------------------
+1. Crea una cuenta gratuita en https://app.netlify.com
+2. Entra en https://app.netlify.com/drop
+3. Arrastra esta carpeta entera (offline-app) a la página.
+4. En un minuto te da una dirección del tipo https://algo.netlify.app
+   Puedes cambiarle el nombre en "Site configuration".
+
+Para actualizar la app más adelante: en tu sitio de Netlify, pestaña "Deploys",
+arrastra la carpeta nueva. Los teléfonos reciben la nueva versión la siguiente
+vez que abren la app con internet.
+
+
+OPCIÓN 2: GITHUB PAGES (gratis)
+-------------------------------
+1. Crea una cuenta en https://github.com y un repositorio público nuevo.
+2. "Add file" > "Upload files" y sube todo el contenido de esta carpeta
+   (index.html, sw.js, manifest.webmanifest y las carpetas data, fonts, icons).
+3. Settings > Pages > Branch: main, carpeta / (root) > Save.
+4. La app queda en https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
+
+
+INSTALARLA EN EL MÓVIL
+----------------------
+iPhone: abre la dirección en Safari > botón Compartir > "Añadir a pantalla de inicio".
+Android: abre la dirección en Chrome > menú ⋮ > "Instalar app" o "Añadir a pantalla de inicio".
+
+La primera vez, con internet, la app guarda la Biblia, las referencias, los santos
+y el calendario (unos 11 MB). Los comentarios de los Padres se guardan al abrir cada
+libro, o todos de una vez (unos 31 MB) desde el icono de la persona > Settings >
+"Save all commentary for offline use".
+
+Tus marcadores, notas y plan de lectura se guardan solo en ese teléfono. En
+Settings puedes guardar una copia de seguridad y cargarla en otro dispositivo.

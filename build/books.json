@@ -1,0 +1,367 @@
+{
+"GEN": {
+"icon": "<path d=\"M3 17h18\"/><path d=\"M6.5 17a5.5 5.5 0 0 1 11 0\"/><path d=\"M12 6v2.5M5.6 9.6l1.6 1.6M18.4 9.6l-1.6 1.6M2.5 13.5h2.2M19.3 13.5h2.2\"/><path d=\"M7 20.5h10\"/>",
+"bio": "Beginnings. Creation, the fall, a flood, and a family God refuses to give up on.",
+"pinned": "1:1"
+},
+"EXO": {
+"icon": "<path d=\"M2.5 9c1.6-1.6 3.2 1.6 5 0M16.5 9c1.6-1.6 3.2 1.6 5 0M2.5 14c1.6-1.6 3.2 1.6 5 0M16.5 14c1.6-1.6 3.2 1.6 5 0\"/><path d=\"M10 4v16M14 4v16\"/>",
+"bio": "Out of the house of bondage. Plagues, the Passover, a sea split open, the Law at Sinai, and a tent where God dwells.",
+"pinned": "3:14"
+},
+"LEV": {
+"icon": "<rect x=\"5.5\" y=\"11.5\" width=\"13\" height=\"9\" rx=\"1\"/><path d=\"M5.5 11.5V8.5l2 3M18.5 11.5V8.5l-2 3\"/><path d=\"M3.5 20.5h17\"/><path d=\"M12 3.5c2 1.8 2.8 3.2 2.8 4.6a2.8 2.8 0 0 1-5.6 0c0-1.4.8-2.8 2.8-4.6z\"/><path d=\"M9 16h6\"/>",
+"bio": "Be ye holy, because I the Lord your God am holy. Priests, sacrifices, the Day of Atonement, and a holy people.",
+"pinned": "19:18"
+},
+"NUM": {
+"icon": "<path d=\"M12 4.5v17\"/><path d=\"M6.5 7.5h11\"/><path d=\"M9.5 20.5c3.5-.6 6-1.4 6-2.6s-7-1.4-7-2.8 7-1.5 7-2.9-5-1.3-5.8-2.3\"/><path d=\"M9.7 9.9C8.8 7.6 10.3 5 13.5 3.8\"/><circle cx=\"15\" cy=\"3.6\" r=\"1.5\" fill=\"currentColor\"/>",
+"bio": "Forty years in the wilderness. Manna and murmuring, a bronze serpent, and a prophet hired to curse who can only bless.",
+"pinned": "6:24"
+},
+"DEU": {
+"icon": "<path d=\"M3 20.5V8a4 4 0 0 1 8 0v12.5z\"/><path d=\"M13 20.5V8a4 4 0 0 1 8 0v12.5z\"/><path d=\"M5.5 10.5h3M5.5 13.5h3M5.5 16.5h3M15.5 10.5h3M15.5 13.5h3M15.5 16.5h3\"/>",
+"bio": "Moses' farewell on the edge of the promised land: remember, love the Lord with your whole heart, and choose life.",
+"pinned": "6:5"
+},
+"JOS": {
+"icon": "<path d=\"M4.3 6.8C6 12 11 12.5 15.7 8.5\"/><path d=\"M3 7.4C4 14.5 12 17 18.3 13.5\"/><path d=\"M15.7 8.5c1.5-.3 2.9 2.5 2.6 5-1.5.3-2.9-2.5-2.6-5z\"/><path d=\"M3 7.4l1.3-.6\"/><path d=\"M20.3 8.3c.9 1.3 1.1 3 .7 4.6M21.5 6.5c1.2 1.9 1.4 4.5.7 6.8\"/>",
+"bio": "Into the promised land. Jericho's walls fall, the tribes receive their portions, and a people chooses whom to serve.",
+"pinned": "1:9"
+},
+"JDG": {
+"icon": "<path d=\"M12.5 21c.3-4 .2-8-.8-11.5\"/><path d=\"M11.7 9.5C9.5 6.5 6 6.5 3.5 8.5M11.7 9.5c2-3 5.5-3.5 8.5-1.5M11.7 9.5c-1-3.5 0-6 2.5-7M11.7 9.5c-2.5-.5-5 1-6 4M11.7 9.5c2.5-.3 5 1.3 6 4.5\"/><path d=\"M7.5 21h10\"/>",
+"bio": "No king in Israel. Deborah, Gideon, Samson, and a cycle of falling away, crying out, and being rescued again.",
+"pinned": "17:6"
+},
+"RUT": {
+"icon": "<path d=\"M12 21V7\"/><path d=\"M12 8c-2-1-3-3-3-5 2 1 3 3 3 5zM12 8c2-1 3-3 3-5-2 1-3 3-3 5zM12 13c-2-1-3.5-3-3.5-5 2 1 3.5 3 3.5 5zM12 13c2-1 3.5-3 3.5-5-2 1-3.5 3-3.5 5zM12 18c-2-1-4-3-4-5 2 1 4 3 4 5zM12 18c2-1 4-3 4-5-2 1-4 3-4 5z\"/>",
+"bio": "Loyal love in a time of famine. A Moabite widow, a barley field, and the great-grandmother of King David.",
+"pinned": "1:16"
+},
+"1SA": {
+"icon": "<path d=\"M8 2.5c1.5 6 4.5 10 9.5 12\"/><path d=\"M3 6.5c3 5 8 8 14.5 8\"/><path d=\"M3 6.5L8 2.5\"/><path d=\"M5 10l5-4\"/><path d=\"M17.5 17.5c-.8 1.1-1.5 1.9-1.5 2.9a1.5 1.5 0 0 0 3 0c0-1-.7-1.8-1.5-2.9z\"/>",
+"bio": "Israel asks for a king. Hannah's prayer, Samuel's call, Saul's fall, and a shepherd boy who faces a giant.",
+"pinned": "16:7"
+},
+"2SA": {
+"icon": "<path d=\"M7.5 13V6.5a4.5 3 0 0 1 9 0V13\"/><path d=\"M10 13V8.5a2 1.5 0 0 1 4 0V13\"/><rect x=\"5\" y=\"13\" width=\"14\" height=\"3\" rx=\"1\"/><path d=\"M6.5 16v5M17.5 16v5\"/><path d=\"M5 13v-2.5h2.5M19 13v-2.5h-2.5\"/>",
+"bio": "David's reign, in glory and in sin. Jerusalem taken, the ark brought home, and a promise of a throne forever.",
+"pinned": "7:16"
+},
+"1KI": {
+"icon": "<rect x=\"7\" y=\"7\" width=\"10\" height=\"14\"/><path d=\"M10 21v-5a2 2 0 0 1 4 0v5\"/><path d=\"M4 21V10M20 21V10\"/><circle cx=\"4\" cy=\"8.3\" r=\"1.4\"/><circle cx=\"20\" cy=\"8.3\" r=\"1.4\"/><path d=\"M2.5 21h19\"/><path d=\"M9 7V4.5h6V7\"/>",
+"bio": "Solomon's wisdom and his temple, a kingdom torn in two, and Elijah meeting God in a whistling of a gentle air.",
+"pinned": "19:12"
+},
+"2KI": {
+"icon": "<circle cx=\"8\" cy=\"16.5\" r=\"4.5\"/><path d=\"M8 12v9M4.1 14.25l7.8 4.5M4.1 18.75l7.8-4.5\"/><path d=\"M3 11.5h11.5c.8-1.6 1-3.4.5-5\"/><path d=\"M12.3 15l9.2-5\"/><path d=\"M6 9c-1.2-1.7-.3-3.6 1.5-4.5 0 1.5 1 2.3 1.5 3.3M10.5 9.2c-.9-2.2.4-4.5 2.7-5.7-.2 1.6.3 3 .8 4\"/>",
+"bio": "Elijah's chariot of fire, Elisha's miracles, and two kingdoms sliding toward exile in Assyria and Babylon.",
+"pinned": "2:11"
+},
+"1CH": {
+"icon": "<circle cx=\"12\" cy=\"4.5\" r=\"2\"/><circle cx=\"6\" cy=\"12\" r=\"2\"/><circle cx=\"18\" cy=\"12\" r=\"2\"/><path d=\"M12 6.5v1.5M6 10V8h12v2M6 14v2M3.5 18v-2h5v2M18 14v4\"/><circle cx=\"3.5\" cy=\"19.5\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"8.5\" cy=\"19.5\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"18\" cy=\"19.5\" r=\"1.5\" fill=\"currentColor\"/>",
+"bio": "History retold from Adam to David. Long genealogies, the ark carried up with songs, and plans for a temple.",
+"pinned": "29:11"
+},
+"2CH": {
+"icon": "<circle cx=\"12\" cy=\"3\" r=\"1.3\"/><path d=\"M11.2 4.1L7 11.5M12.8 4.1l4.2 7.4\"/><path d=\"M5.5 11.5h13a6.5 6 0 0 1-13 0z\"/><path d=\"M12 10c-1.1-1 .9-1.9-.1-3.2\"/><path d=\"M4 9c-1.2-1 0-2.4-1.2-3.8M20 9c1.2-1 0-2.4 1.2-3.8\"/>",
+"bio": "Solomon's temple and Judah's kings: revival and ruin, exile, then a Persian king tells God's people to go home.",
+"pinned": "7:14"
+},
+"EZR": {
+"icon": "<rect x=\"2.5\" y=\"6\" width=\"3\" height=\"14.5\" rx=\"1.5\"/><rect x=\"12\" y=\"6\" width=\"3\" height=\"14.5\" rx=\"1.5\"/><path d=\"M5.5 7.5h6.5M5.5 19h6.5\"/><path d=\"M7.3 11h3M7.3 14.5h3\"/><path d=\"M21.5 2c-2.8 1.2-4.3 4.2-4.2 8 2.8-1.2 4.3-4.2 4.2-8zM17.3 10l-.5 4.5\"/>",
+"bio": "Home from Babylon. An altar rebuilt, a temple refounded amid shouts and tears, and a scribe devoted to the Law.",
+"pinned": "7:10"
+},
+"NEH": {
+"icon": "<path d=\"M2.5 21V11.5H5V9h3v2.5h2.5V9h3v2.5H16V9h3v2.5h2.5V21z\"/><path d=\"M2.5 16.2h19\"/><path d=\"M8 11.5v4.7M16 11.5v4.7M5 16.2V21M12 16.2V21M19 16.2V21\"/>",
+"bio": "A cupbearer rebuilds Jerusalem's walls in 52 days, work in one hand and a sword in the other. Then the Law is read.",
+"pinned": "8:10"
+},
+"TOB": {
+"icon": "<path d=\"M3 13.5c3-4.5 9.5-4.5 13 0-3.5 4.5-10 4.5-13 0z\"/><path d=\"M16 13.5l5-3.5v7z\"/><circle cx=\"6.5\" cy=\"12.6\" r=\".9\" fill=\"currentColor\"/><path d=\"M4 13C3.5 9 5 6 8 4.5\"/><circle cx=\"9.5\" cy=\"3.8\" r=\"1.5\"/><path d=\"M9.5 10.5c.8 1.8.8 4.2 0 6\"/>",
+"bio": "A blind father, a faithful son, an angel in disguise, a fish, a dog, and a marriage saved by prayer.",
+"pinned": "12:8"
+},
+"JDT": {
+"icon": "<path d=\"M8.2 16.8C12.5 13.5 18 8.5 21 3\"/><path d=\"M9.5 18.2C15 16 20.2 10.5 21 3\"/><path d=\"M5.5 14.5l5 5\"/><path d=\"M8 17l-3.5 3.5\"/><circle cx=\"3.8\" cy=\"21.2\" r=\"1.1\" fill=\"currentColor\"/>",
+"bio": "A widow of Bethulia faces down an invading army with prayer, courage, and Holofernes' own sword.",
+"pinned": "15:10"
+},
+"EST": {
+"icon": "<rect x=\"2.5\" y=\"9.5\" width=\"10\" height=\"10\" rx=\"2\"/><rect x=\"11.5\" y=\"3.5\" width=\"9\" height=\"9\" rx=\"2\"/><circle cx=\"5.3\" cy=\"12.3\" r=\".9\" fill=\"currentColor\"/><circle cx=\"7.5\" cy=\"14.5\" r=\".9\" fill=\"currentColor\"/><circle cx=\"9.7\" cy=\"16.7\" r=\".9\" fill=\"currentColor\"/><circle cx=\"14.6\" cy=\"6.6\" r=\".9\" fill=\"currentColor\"/><circle cx=\"17.4\" cy=\"9.4\" r=\".9\" fill=\"currentColor\"/>",
+"bio": "An orphan turned queen of Persia risks her life before the king, and the lots cast for her people's ruin are reversed.",
+"pinned": "4:14"
+},
+"1MA": {
+"icon": "<path d=\"M12.5 3l8.5 8.5-3.5 3.5L9 6.5z\"/><path d=\"M13.2 10.8L3.5 20.5\"/>",
+"bio": "Mathathias refuses the king's idols. Judas the Hammer and his brothers fight back, cleanse the Temple, free Judea.",
+"pinned": "3:19"
+},
+"2MA": {
+"icon": "<path d=\"M5 21.5C6.5 15 10 8.5 18.5 3.5\"/><path d=\"M7.7 14.2Q12.7 13.2 15.2 15.3M7.7 14.2Q5.9 9.4 2.8 8.5M9.8 11Q14 10.8 15.7 12.9M9.8 11Q8.9 6.9 6.5 5.8M12.5 8Q15.7 8.3 16.8 10.1M12.5 8Q12.3 4.8 10.5 3.6M15.7 5.4Q18 5.9 18.6 7.3M15.7 5.4Q15.8 3 14.7 2\"/>",
+"bio": "Eleazar, and a mother with her seven sons, die faithful. A purified Temple, prayer for the dead, hope of resurrection.",
+"pinned": "7:28"
+},
+"JOB": {
+"icon": "<path d=\"M3 4h18\"/><path d=\"M5 8h13.5\"/><path d=\"M8 12h11\"/><path d=\"M8.5 16h6.5\"/><path d=\"M10 20h2.5\"/>",
+"bio": "A just man loses everything and argues with heaven. God answers from a whirlwind. \"I know that my Redeemer liveth\".",
+"pinned": "19:25"
+},
+"PSA": {
+"icon": "<path d=\"M7.5 4C5 7.5 5.5 11.5 8 14h8c2.5-2.5 3-6.5.5-10\"/><path d=\"M6 4.5h3M15 4.5h3M6.5 18h11M8 14v4M16 14v4M10.5 7.5V14M13.5 7.5V14\"/>",
+"bio": "Israel's prayer book: 150 songs of praise, lament, repentance and trust, prayed by synagogue and Church for millennia.",
+"pinned": "22:1"
+},
+"PRO": {
+"icon": "<path d=\"M3.5 14.5c0-2 3-3.2 8-3.2h4.5l4.5-2.3v3.2c0 3-4 5.3-9 5.3-4.5 0-8-1-8-3z\"/><path d=\"M8.5 11.3C7.8 9.2 9.5 7.5 9.3 5c1.4 1.6 2.4 3.6 1.8 6.3\"/><path d=\"M8 20h7\"/>",
+"bio": "Wisdom in small bites: work, words, money, friends. \"The fear of the Lord is the beginning of wisdom.\"",
+"pinned": "3:5"
+},
+"ECC": {
+"icon": "<path d=\"M6 3h12M6 21h12M7.5 3c0 5 4.5 6 4.5 9s-4.5 4-4.5 9M16.5 3c0 5-4.5 6-4.5 9s4.5 4 4.5 9\"/><path d=\"M9.5 18.5h5\"/>",
+"bio": "Vanity of vanities. Work, pleasure and wisdom weighed under the sun. The verdict: fear God and keep his commandments.",
+"pinned": "3:1"
+},
+"SOL": {
+"icon": "<path d=\"M12 3c-2 2.5-2 6 0 8.5c2-2.5 2-6 0-8.5z\"/><path d=\"M11.5 11.5C8 11.8 5 10 4 6.5c3.3.2 6 2 7.5 5\"/><path d=\"M12.5 11.5C16 11.8 19 10 20 6.5c-3.3.2-6 2-7.5 5\"/><path d=\"M12 11.5v9.5\"/><path d=\"M12 18.5c1.2-2.4 3.4-3.6 5.8-3.6c-.6 2.4-3 3.9-5.8 3.6\"/>",
+"bio": "A bride and her beloved among lilies and vineyards, read as human love and as God's love. For love is strong as death.",
+"pinned": "8:6"
+},
+"WIS": {
+"icon": "<path d=\"M11.5 14.5h2a2 2 0 0 0 0-4h-3.2c-.6 0-1.1.2-1.5.6L3 16.5\"/><path d=\"M7 20.5l1.5-1.3c.4-.4.9-.6 1.5-.6h4.2c1 0 2-.4 2.7-1.1l4.4-4.3a1.9 1.9 0 0 0-2.7-2.7l-4 3.7\"/><path d=\"M2 15.5l5.5 5.5\"/><circle cx=\"16.8\" cy=\"4.6\" r=\"2\"/><path d=\"M13.6 10.3a3.2 3.2 0 0 1 6.4 0\"/>",
+"bio": "Written in Solomon's name: wisdom as the brightness of eternal light, the just in God's hand, the Exodus retold.",
+"pinned": "3:1"
+},
+"SIR": {
+"icon": "<polygon points=\"12,2.5 16,7.5 14.5,7.5 18.5,12 16.5,12 21,17 3,17 7.5,12 5.5,12 9.5,7.5 8,7.5\"/><path d=\"M12 17v4.5M9 21.5h6\"/>",
+"bio": "Jesus son of Sirach teaches the good life: friendship, speech, humility, family, and praise of \"men of renown\".",
+"pinned": "6:14"
+},
+"ISA": {
+"icon": "<path d=\"M12 2.5c1 3.2 5.5 5.2 5.5 10.5a5.5 5.5 0 0 1-11 0c0-3.2 2-4.5 2-7.5 1.2 1 2.2 2.4 2.2 4.3 1.3-2.2 1.3-4.6 1.3-7.3z\"/>",
+"bio": "Seraphim, a live coal, a virgin with child, and a Servant \"wounded for our iniquities\". Judgment, then comfort.",
+"pinned": "53:5"
+},
+"JER": {
+"icon": "<path d=\"M2 8.5c2.5-2.5 17.5-2.5 20 0v2.5c-2.5-2.5-17.5-2.5-20 0z\"/><path d=\"M3.8 9.4V14.5a2.75 2.75 0 0 0 5.5 0V8.4M14.7 8.4V14.5a2.75 2.75 0 0 0 5.5 0V9.4\"/>",
+"bio": "Called before birth to warn a city that would not listen. Tears, a yoke on his neck, and the promise of a new covenant.",
+"pinned": "29:11"
+},
+"LAM": {
+"icon": "<path d=\"M2.5 9C5 5 8.5 3.5 12 3.5S19 5 21.5 9C19 13 15.5 14.5 12 14.5S5 13 2.5 9z\"/><circle cx=\"12\" cy=\"9\" r=\"2.5\"/><path d=\"M15 16.2c-1.1 1.7-1.8 2.8-1.8 3.8a1.8 1.8 0 0 0 3.6 0c0-1-.7-2.1-1.8-3.8z\"/>",
+"bio": "Five laments for a ruined Jerusalem, grief poured out to God. Yet his mercies are \"new every morning\".",
+"pinned": "3:23"
+},
+"BAR": {
+"icon": "<path d=\"M10 3.5h4l3 1.5 4 8-3 1.5-2-4 2 11.5H6l2-11.5-2 4-3-1.5 4-8z\"/><path d=\"M10 3.5a2 1.8 0 0 0 4 0\"/><path d=\"M8.6 13h6.8\"/>",
+"bio": "From Jeremiah's scribe in Babylon: confession, a hymn to wisdom, comfort for Jerusalem, Jeremiah's letter on idols.",
+"pinned": "5:1"
+},
+"EZE": {
+"icon": "<path d=\"M7.6 14.9L14.9 7.6A1.9 1.9 0 1 1 17.8 6.2A1.9 1.9 0 1 1 16.4 9.1L9.1 16.4A1.9 1.9 0 1 1 6.2 17.8A1.9 1.9 0 1 1 7.6 14.9z\"/>",
+"bio": "A priest in exile sees God's glory on wheels full of eyes. Dry bones live again, and hearts of stone become flesh.",
+"pinned": "36:26"
+},
+"DAN": {
+"icon": "<path d=\"M4.5 21v-7.5a7.5 7.5 0 0 1 15 0V21\"/><path d=\"M2.5 21h19\"/><path d=\"M8.5 21v-3.5a3.5 3.5 0 0 1 7 0V21\"/><path d=\"M12 6c-1.6-1.2-1.6-2.8 0-4.5 1.6 1.7 1.6 3.3 0 4.5zM8.2 6.9c-1.3-.7-1.6-2-.8-3.2M15.8 6.9c1.3-.7 1.6-2 .8-3.2\"/><path d=\"M12 20.5c-1.1 0-1.8-.8-1.8-1.7 0-1 .9-1.6 1.8-2.8.9 1.2 1.8 1.8 1.8 2.8 0 .9-.7 1.7-1.8 1.7z\"/>",
+"bio": "Faithful in exile: a fiery furnace, a lions' den, writing on the wall, Susanna saved, one like the son of man on clouds.",
+"pinned": "6:22"
+},
+"HOS": {
+"icon": "<circle cx=\"12\" cy=\"15\" r=\"6\"/><path d=\"M9.5 6.2L12 9l2.5-2.8-1.2-1.7h-2.6z\"/><path d=\"M9.5 6.2h5\"/>",
+"bio": "A prophet's broken marriage becomes God's love letter to a faithless people: I will espouse thee to me for ever.",
+"pinned": "6:6"
+},
+"JOE": {
+"icon": "<ellipse cx=\"11.5\" cy=\"13.5\" rx=\"7\" ry=\"2.4\"/><circle cx=\"19.6\" cy=\"12.6\" r=\"1.9\"/><path d=\"M12 11.3L7.5 6.5 4.5 16.5\"/><path d=\"M14 15.8l-1 3.7M17 15.5l1.2 3.6\"/><path d=\"M20.4 10.9c.3-2.6 1-4.6 2.2-6.4\"/><path d=\"M6 12.6l8.5-1.2\"/>",
+"bio": "Locusts strip the land. Then a call to rend your hearts, and a promise: I will pour out my spirit upon all flesh.",
+"pinned": "2:28"
+},
+"AMO": {
+"icon": "<path d=\"M3.5 20.5L6 10.5l7.5 7.5z\"/><path d=\"M9.75 14.25L13 11\"/><path d=\"M13.9 11.9l6-6a1.3 1.3 0 0 0-1.84-1.84l-6 6z\"/>",
+"bio": "A herdsman of Thecua takes on luxury and deceitful balances, and calls for justice as a mighty torrent.",
+"pinned": "5:24"
+},
+"OBA": {
+"icon": "<path d=\"M12 2C11.3 2 10.8 2.5 10.8 3.2L10.5 4.2C8 3.6 5 3.6 2.4 4.4L3.6 5.2L2.6 6L4.2 6.4C6.6 6.6 8.7 7 10.4 7.8L10.2 9.6L12 10.2L13.8 9.6L13.6 7.8C15.3 7 17.4 6.6 19.8 6.4L21.4 6L20.4 5.2L21.6 4.4C19 3.6 16 3.6 13.5 4.2L13.2 3.2C13.2 2.5 12.7 2 12 2z\"/><path d=\"M2.5 21l5.5-7 3 3.5 3.5-5 7 8.5\"/>",
+"bio": "The Old Testament's shortest book. Proud Edom nests among the stars, and hears: thence will I bring thee down.",
+"pinned": "1:4"
+},
+"JON": {
+"icon": "<path d=\"M2.5 13.5c0-3.6 3.6-6 8-6 4.2 0 7.3 2.4 8.8 5.2l2.2-2.7v7l-2.2-2.2c-1.6 2.7-4.8 4.2-8.8 4.2-4.6 0-8-2-8-5.5z\"/><circle cx=\"7\" cy=\"11.5\" r=\".8\" fill=\"currentColor\"/><path d=\"M2.8 14.5c1.5.8 3.2 1 5 .6\"/><path d=\"M10 4.8c0-1.4.9-2.4 2-3M10 4.8c0-1.4-.9-2.4-2-3\"/>",
+"bio": "A runaway prophet, a storm, a great fish, and a God whose mercy is wide enough for Ninive. The prophet sulks.",
+"pinned": "2:1"
+},
+"MIC": {
+"icon": "<path d=\"M12 4v16M8 20h8M4.5 7h15\"/><path d=\"M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z\"/>",
+"bio": "Swords into ploughshares, a ruler from little Bethlehem, and the plain answer to what the Lord requireth of thee.",
+"pinned": "6:8"
+},
+"NAH": {
+"icon": "<path d=\"M2 18c3 0 4.2-2 5-4.8C8.3 8.7 11.3 5.5 15.3 5.5c3.3 0 5.7 2.3 5.7 5 0 2.1-1.6 3.7-3.6 3.7-1.6 0-2.8-1.1-2.8-2.5 0-1.1.9-1.9 2-1.9\"/><path d=\"M7 18c2.5 0 4.5-1.6 5.6-4.2\"/><path d=\"M11 18.5c2 0 3.5-.8 4.5-2.2\"/><path d=\"M2 21.5c1.7 0 1.7-1 3.3-1s1.7 1 3.4 1 1.7-1 3.3-1 1.7 1 3.3 1 1.7-1 3.4-1 1.6 1 3.3 1\"/>",
+"bio": "Comfort for Juda, doom for Ninive, the city of blood. The Lord is patient, but a tyrant's reckoning has come.",
+"pinned": "1:7"
+},
+"HAB": {
+"icon": "<path d=\"M4 21h16\"/><path d=\"M8.5 21l1-10.5h5l1 10.5\"/><path d=\"M8 10.5h8V8h-1.5v1h-1.5V8h-2v1H9.5V8H8z\"/><path d=\"M11 21v-2.5a1 1 0 0 1 2 0V21\"/><circle cx=\"12\" cy=\"3.6\" r=\"1.3\"/><path d=\"M10.2 8V7c0-1 .8-1.6 1.8-1.6s1.8.6 1.8 1.6v1\"/>",
+"bio": "How long, O Lord? A prophet argues with God, then waits on his watchtower. Answer: the just shall live in his faith.",
+"pinned": "2:4"
+},
+"ZEP": {
+"icon": "<path d=\"M7 15.5H6a3.5 3.5 0 0 1-.4-7A5 5 0 0 1 15 6.8a4.3 4.3 0 0 1 3 8.7h-1\"/><path d=\"M12.5 12l-2.5 4.5h3.5L11 21\"/>",
+"bio": "That day is a day of wrath: the line behind the Dies irae. Then a humble remnant, and a God who rejoices over them.",
+"pinned": "3:17"
+},
+"HAG": {
+"icon": "<path d=\"M9 6.5C8 5.5 7.5 4.2 8 3.5c1.2.6 2.5.8 4 .8s2.8-.2 4-.8c.5.7 0 2-1 3\"/><path d=\"M9 6.5h6\"/><path d=\"M9.3 6.5C6 8.5 4.5 11 4.5 13.5c0 2.2 1.5 3.4 4 3.8M10.8 17.5h2.4M14.7 6.5c3.3 2 4.8 4.5 4.8 7 0 2.2-1.5 3.4-4 3.8\"/><circle cx=\"9.7\" cy=\"19.6\" r=\".9\" fill=\"currentColor\"/><circle cx=\"14.3\" cy=\"21.6\" r=\".9\" fill=\"currentColor\"/>",
+"bio": "Your ceiled houses are done, God's house lies desolate. Consider your ways, rebuild the temple, and glory will fill it.",
+"pinned": "2:10"
+},
+"ZEC": {
+"icon": "<path d=\"M7 21.5c0-5 1-9 3.5-12.5C12 8 15 8.5 17.5 10.3c1.6 1.1 2.8 2.4 2.8 3.7 0 1.3-1 1.9-2.3 1.9-1.6 0-3-.4-4.4-.4-.8 0-1.4.6-1.4 1.6v4.4\"/><path d=\"M10.3 9.3L7.6 2.8c1.7.3 3.200 2.3 3.9 5.2M12.2 8.4l.4-6.2c1.4.9 2 3 1.6 5.8\"/><circle cx=\"14.6\" cy=\"11.2\" r=\".8\" fill=\"currentColor\"/><circle cx=\"19\" cy=\"13.3\" r=\".5\" fill=\"currentColor\"/><path d=\"M9.2 12.5l-1.3.6M8.6 15.5l-1.3.5\"/>",
+"bio": "Night visions of horses, a golden candlestick and two olive trees. Then a king who comes poor, and riding upon an ass.",
+"pinned": "9:9"
+},
+"MAL": {
+"icon": "<circle cx=\"12\" cy=\"13\" r=\"3\"/><path d=\"M12 5v2.5M7.8 7.2l1.6 1.6M16.2 7.2l-1.6 1.6\"/><path d=\"M8.6 12C6.6 10.3 4.4 9.6 2 9.8M8.8 14C6.8 13 4.8 12.7 2.8 12.9M9.6 15.8c-1.4-.7-2.9-.9-4.4-.7\"/><path d=\"M15.4 12c2-1.7 4.2-2.4 6.6-2.2M15.2 14c2-1 4-1.3 6-1.1M14.4 15.8c1.4-.7 2.9-.9 4.4-.7\"/>",
+"bio": "Last of the twelve prophets. Lame sacrifices, broken faith, a messenger to prepare the way, and the Sun of justice.",
+"pinned": "4:2"
+},
+"MAT": {
+"icon": "<path d=\"M4 18.5h16M5 18.5L4 8l5 4 3-6.5 3 6.5 5-4-1 10.5\"/>",
+"bio": "The Gospel of the kingdom. Jesus fulfils the prophets, preaches on the mount, and sends his disciples to all nations.",
+"pinned": "5:3"
+},
+"MAR": {
+"icon": "<path d=\"M12 2.4C10.4 1.5 8.2 1.7 7 3.2L8.4 4.2C6 3.9 4 5.2 3.4 7.4L5.1 7.8C3.4 9 2.4 11 2.6 12.8L4.3 12.6C3 14.2 3 16.4 3.9 17.8L5.6 17C5.7 18.9 7 20.4 8.5 21.2L9.6 19.8C10.1 21 11 22 12 22.4C13 22 13.9 21 14.4 19.8L15.5 21.2C17 20.4 18.3 18.9 18.4 17L20.1 17.8C21 16.4 21 14.2 19.7 12.6L21.4 12.8C21.6 11 20.6 9 18.9 7.8L20.6 7.4C20 5.2 18 3.900 15.6 4.2L17 3.2C15.8 1.7 13.6 1.5 12 2.4z\"/><path d=\"M8.4 10.6c0-2 1.6-3.3 3.6-3.3s3.6 1.3 3.6 3.3c0 1 .4 2 .4 3 0 2-1.8 3.5-4 3.5s-4-1.5-4-3.5c0-1 .4-2 .4-3z\"/><path d=\"M11 12.8h2l-1 1.1zM12 13.9v.7M10.5 15.1c.6.4 1.1.3 1.5-.5.4.8.9.9 1.5.5\"/><circle cx=\"10.4\" cy=\"11\" r=\".7\" fill=\"currentColor\"/><circle cx=\"13.6\" cy=\"11\" r=\".7\" fill=\"currentColor\"/>",
+"bio": "The shortest Gospel, always in motion. Immediately Jesus heals, teaches, goes to the cross, and rises. Keep up.",
+"pinned": "10:45"
+},
+"LUK": {
+"icon": "<path d=\"M4 5.5c.5 2.5 2.5 3.8 5 3.8M20 5.5c-.5 2.5-2.5 3.8-5 3.8\"/><path d=\"M8 9.3h8c.3 3-.3 6-1 8.2-.5 1.6-1.7 2.5-3 2.5s-2.5-.9-3-2.5c-.7-2.2-1.3-5.2-1-8.2z\"/><path d=\"M8 10.5L5 11.5l3 1M16 10.5l3 1-3 1\"/><ellipse cx=\"12\" cy=\"17.5\" rx=\"2.6\" ry=\"1.8\"/><circle cx=\"10\" cy=\"12.5\" r=\".7\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"12.5\" r=\".7\" fill=\"currentColor\"/>",
+"bio": "An orderly account for Theophilus: the manger, the Magnificat, the prodigal son, the good Samaritan, Emmaus.",
+"pinned": "19:10"
+},
+"JOH": {
+"icon": "<circle cx=\"12\" cy=\"12\" r=\"3.2\"/><path d=\"M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.6 2.6M16.4 16.4 19 19M19 5l-2.6 2.6M7.6 16.4 5 19\"/>",
+"bio": "In the beginning was the Word. Seven signs, the I am sayings, the beloved disciple, and a love that lays down its life.",
+"pinned": "3:16"
+},
+"ACT": {
+"icon": "<path d=\"M3 15h18l-2.6 4.5H5.6z\"/><path d=\"M12 3v12\"/><path d=\"M6.5 5h11c.6 2.7.6 5.3 0 8h-11c-.6-2.7-.6-5.3 0-8z\"/><path d=\"M2 22c1.7 0 1.7-1 3.3-1s1.7 1 3.4 1 1.7-1 3.3-1 1.7 1 3.3 1 1.7-1 3.4-1 1.6 1 3.3 1\"/>",
+"bio": "Luke, part two. Wind and fire at Pentecost, then the Gospel runs from Jerusalem to Rome, shipwreck included.",
+"pinned": "1:8"
+},
+"ROM": {
+"icon": "<path d=\"M4 20v-9a8 8 0 0 1 16 0v9\"/><path d=\"M8.5 20v-8a3.5 3.5 0 0 1 7 0v8\"/><path d=\"M2 20h20\"/>",
+"bio": "Paul's masterwork. All have sinned, grace did more abound, and nothing can separate us from the love of God.",
+"pinned": "1:16"
+},
+"1CO": {
+"icon": "<path d=\"M12 20s-7.5-4.6-7.5-10.2A4.2 4.2 0 0 1 12 7.4a4.2 4.2 0 0 1 7.5 2.4C19.5 15.4 12 20 12 20z\"/>",
+"bio": "A divided church gets straight talk: factions, the Lord's Supper, gifts, the resurrection, and charity above all.",
+"pinned": "13:13"
+},
+"2CO": {
+"icon": "<path d=\"M9 3h6M10 3v3.2C7 7.3 5 10 5 14c0 4 3 7 7 7s7-3 7-7c0-4-2-6.7-5-7.8V3\"/><path d=\"M6 12h12\"/>",
+"bio": "Treasure in earthen vessels. Paul defends his ministry with tears and irony: power is made perfect in infirmity.",
+"pinned": "12:9"
+},
+"GAL": {
+"icon": "<path d=\"M9.5 7.5H6a4.5 4.5 0 0 0 0 9h3.5\"/><path d=\"M14.5 7.5H18a4.5 4.5 0 0 1 0 9h-3.5\"/><path d=\"M12 2.5V5M12 19v2.5M8.6 3.6l1 1.5M15.4 3.6l-1 1.5M8.6 20.4l1-1.5M15.4 20.4l-1-1.5\"/>",
+"bio": "Paul at full heat: there is no other gospel. Christ has made us free, so walk in the Spirit and bear its fruit.",
+"pinned": "2:20"
+},
+"EPH": {
+"icon": "<path d=\"M12 2.5l7.5 3v5.5c0 4.8-3.2 8.6-7.5 10.5c-4.3-1.9-7.5-5.7-7.5-10.5V5.5z\"/><path d=\"M12 7v10M8 11h8\"/>",
+"bio": "One Lord, one faith, one baptism. Grace that saves, the Church as Christ's body and bride, and the armour of God.",
+"pinned": "2:8"
+},
+"PHI": {
+"icon": "<circle cx=\"10\" cy=\"14\" r=\"8\"/><circle cx=\"10\" cy=\"14\" r=\"4.2\"/><circle cx=\"10\" cy=\"14\" r=\"1.2\" fill=\"currentColor\"/><path d=\"M10 14L21 3\"/><path d=\"M17 3v4h4\"/>",
+"bio": "A thank-you note written in chains that keeps saying rejoice. Christ emptied himself; every knee should bow.",
+"pinned": "4:13"
+},
+"COL": {
+"icon": "<circle cx=\"12\" cy=\"15\" r=\"6.5\"/><path d=\"M5.5 15h13\"/><path d=\"M12 2.5V15M9.5 5h5\"/>",
+"bio": "Christ over all: the image of the invisible God, head of the body, the church. By him all things consist.",
+"pinned": "1:15"
+},
+"1TH": {
+"icon": "<path d=\"M2.5 11h9c3.2 0 6.3-2.3 9-5v12c-2.7-2.7-5.8-5-9-5h-9\"/><path d=\"M2.5 9v6\"/><path d=\"M6.5 11v2\"/>",
+"bio": "Likely Paul's first letter. Hope for them that are asleep, and the trumpet of God at the Lord's coming.",
+"pinned": "4:15"
+},
+"2TH": {
+"icon": "<path d=\"M21 3C14.5 3.5 9.5 8 8 15l2 2c7-1.5 11-6.5 11-14z\"/><path d=\"M4 20L15.5 8.5\"/><path d=\"M12 20.5c1.2-1.4 2.3-1.4 2.8 0s1.6 1.4 2.8 0 2.3-1.4 2.8 0\"/>",
+"bio": "Don't panic: the day of the Lord is not here yet. Stand fast, hold the traditions, and keep working.",
+"pinned": "2:14"
+},
+"1TI": {
+"icon": "<rect x=\"4\" y=\"3\" width=\"16\" height=\"2.5\" rx=\".5\"/><path d=\"M6 5.5l1 2h10l1-2\"/><path d=\"M7.5 7.5v10.5M16.5 7.5v10.5M10.5 9.5v7M13.5 9.5v7\"/><rect x=\"5\" y=\"18\" width=\"14\" height=\"3\" rx=\".5\"/>",
+"bio": "Paul's charge to young Timothy: prayer, bishops and deacons, and the church, the pillar and ground of the truth.",
+"pinned": "1:15"
+},
+"2TI": {
+"icon": "<path d=\"M10.7 18.6A7.2 7.2 0 0 1 9 5\"/><path d=\"M13.3 18.6A7.2 7.2 0 0 0 15 5\"/><path d=\"M8.2 17.6Q6.3 16.7 4.8 18.1Q6.7 19.1 8.2 17.6zM5.5 14.5Q4.4 12.8 2.4 13.2Q3.4 15 5.5 14.5zM4.9 10.5Q4.9 8.4 3 7.7Q2.9 9.7 4.9 10.5zM6.5 6.9Q7.6 5.1 6.4 3.5Q5.2 5.2 6.5 6.9z\"/><path d=\"M15.8 17.6Q17.3 19.1 19.2 18.1Q17.7 16.7 15.8 17.6zM18.5 14.5Q20.6 15 21.6 13.2Q19.6 12.8 18.5 14.5zM19.1 10.5Q21.1 9.7 21 7.7Q19.1 8.4 19.1 10.5zM17.5 6.9Q18.8 5.2 17.6 3.5Q16.4 5.1 17.5 6.9z\"/><path d=\"M10.5 18.5l3 3M13.5 18.5l-3 3\"/>",
+"bio": "Paul's farewell from chains to his beloved son: guard what was entrusted, preach the word, finish the course.",
+"pinned": "4:7"
+},
+"TIT": {
+"icon": "<path d=\"M5.5 22L10 9a5 5 0 1 1 7.5 5.5c-1.6.8-3.4.2-3.8-1.3a2 2 0 0 1 1.6-2.5\"/>",
+"bio": "Left in Crete to set things in order: appoint presbyters, teach sound doctrine, live the grace that has appeared.",
+"pinned": "3:5"
+},
+"PHM": {
+"icon": "<circle cx=\"8\" cy=\"8\" r=\"3\"/><circle cx=\"16\" cy=\"8\" r=\"3\"/><path d=\"M2.5 20.5c0-3.6 2.5-6.5 5.5-6.5s5.5 2.9 5.5 6.5\"/><path d=\"M10.5 20.5c0-3.6 2.5-6.5 5.5-6.5s5.5 2.9 5.5 6.5\"/>",
+"bio": "A one-page plea from prison: take back Onesimus, not now as a servant, but instead of a servant, a most dear brother.",
+"pinned": "1:16"
+},
+"HEB": {
+"icon": "<circle cx=\"12\" cy=\"5\" r=\"2\"/><path d=\"M12 7v14M8 10.5h8M4 13.5c0 4 3.6 7.5 8 7.5s8-3.5 8-7.5\"/>",
+"bio": "Jesus, the great high priest, better than the angels and every sacrifice. A cloud of witnesses, and hope as an anchor.",
+"pinned": "11:1"
+},
+"JAM": {
+"icon": "<circle cx=\"12\" cy=\"9\" r=\"6\"/><path d=\"M9.5 6.5a3.5 3.5 0 0 1 3-1.3M12 15v6M9 21h6\"/>",
+"bio": "Be ye doers of the word, and not hearers only. Wisdom for trials, a bridled tongue, care for the poor, faith that works.",
+"pinned": "1:22"
+},
+"1PE": {
+"icon": "<rect x=\"3\" y=\"14\" width=\"8\" height=\"6\" rx=\"1\"/><rect x=\"13\" y=\"14\" width=\"8\" height=\"6\" rx=\"1\"/><rect x=\"8\" y=\"6\" width=\"8\" height=\"6\" rx=\"1\"/>",
+"bio": "To strangers dispersed and suffering: you are living stones, a kingly priesthood. Faith tried by the fire.",
+"pinned": "2:9"
+},
+"2PE": {
+"icon": "<path d=\"M6.5 22.5V9M14.5 22.5V9\"/><path d=\"M6.5 12h8M6.5 15.5h8M6.5 19h8\"/><path d=\"M18.5 1.5l1 3 3 1-3 1-1 3-1-3-3-1 3-1z\"/>",
+"bio": "Peter's farewell before laying away his tabernacle: climb from faith to charity, and look for new heavens.",
+"pinned": "1:4"
+},
+"1JO": {
+"icon": "<path d=\"M10.61 17.26A5.5 5.5 0 1 1 13.15 15.61\"/><path d=\"M13.39 6.74A5.5 5.5 0 1 1 10.85 8.39\"/>",
+"bio": "God is light. God is charity. To little children: let us not love in word, nor in tongue, but in deed, and in truth.",
+"pinned": "4:16"
+},
+"2JO": {
+"icon": "<path d=\"M5 16.5v-2.4C5 12 4 11 4 8.5 4 5.5 5.5 3 7.8 3 9.8 3 10.5 4.8 10.5 6.5c0 3-2 5.5-2 8.5v1.5a1.75 1.75 0 0 1-3.5 0z\"/><path d=\"M5 13.5h3.6\"/><path d=\"M19 20.5v-2.4C19 16 20 15 20 12.5 20 9.5 18.5 7 16.2 7 14.2 7 13.5 8.8 13.5 10.5c0 3 2 5.5 2 8.5v1.5a1.75 1.75 0 0 0 3.5 0z\"/><path d=\"M15.4 17.5H19\"/>",
+"bio": "The ancient writes to the lady Elect: walk in truth, love one another, and give no welcome to deceivers.",
+"pinned": "1:5"
+},
+"3JO": {
+"icon": "<path d=\"M6 20.5V3h12v17.5\"/><path d=\"M6 3l6.5 2v17l-6.5-1.5z\"/><circle cx=\"10.8\" cy=\"13\" r=\".9\" fill=\"currentColor\"/><path d=\"M2.5 20.5H6M18 20.5h3.5\"/>",
+"bio": "The ancient to beloved Gaius: welcome the travelling brethren, follow what is good, and don't be a Diotrephes.",
+"pinned": "1:4"
+},
+"JUD": {
+"icon": "<path d=\"M12 2.5l2 2.5v10h-4V5z\"/><path d=\"M7 15h10\"/><path d=\"M12 15v4.5\"/><circle cx=\"12\" cy=\"20.8\" r=\"1.3\"/>",
+"bio": "Short and urgent: contend earnestly for the faith once delivered to the saints. Ends in a doxology for all ages.",
+"pinned": "1:3"
+},
+"REV": {
+"icon": "<circle cx=\"12.00\" cy=\"4.50\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"17.86\" cy=\"7.32\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"19.31\" cy=\"13.67\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"15.25\" cy=\"18.76\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"8.75\" cy=\"18.76\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"4.69\" cy=\"13.67\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"6.14\" cy=\"7.32\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"12\" r=\"2.4\"/>",
+"bio": "Seven churches, a slain Lamb on the throne, a dragon cast down, and all things made new. Come, Lord Jesus.",
+"pinned": "21:4"
+}
+}

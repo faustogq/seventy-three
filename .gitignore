@@ -1,0 +1,22 @@
+# signing key for the Android app: never published
+android/seventy-three.keystore
+android/signing.properties
+*.keystore
+*.jks
+
+# build outputs (published as GitHub Releases and GitHub Pages instead)
+android/Seventy-Three.apk
+android/*.idsig
+android/assets/
+android/out/
+offline-app/
+*.zip
+app-v*.html
+sixty-six.html
+_test*.html
+
+# local only
+v6/
+LEEME.md
+.claude/
+.DS_Store
