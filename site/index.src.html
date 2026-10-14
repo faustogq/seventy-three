@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Seventy-Three: the Catholic Bible as a feed</title>
+<meta name="description" content="Each of the 73 books of the Douay-Rheims Bible posts its verses. Other books reply with cross-references, and the Church Fathers and saints comment in their own words. Free, offline and open source.">
+<meta name="theme-color" content="#1b2a57">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Seventy-Three: the Catholic Bible as a feed">
+<meta property="og:description" content="The 73 books post their verses, answer each other with cross-references, and the Fathers and saints comment in their own words. Free, offline, open source.">
+<meta property="og:url" content="%SITE%/">
+<meta property="og:image" content="%SITE%/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+/*FONTS*/
+:root{
+  --navy:#1b2a57;--navy-2:#2c4588;--navy-3:#141f42;--gold:#e3c25e;--gold-ink:#7d5e10;
+  --bg:#f6f4ef;--surface:#ffffff;--line:#e4e1d8;--fg:#151922;--muted:#5b6474;--accent:#2b4a90;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;--sans:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#0f131b;--surface:#161c27;--line:#263042;--fg:#e8ebf1;--muted:#9aa3b2;--accent:#93acea;--gold-ink:#e0bd52}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* hero */
+.hero{color:#fff;background:radial-gradient(120% 90% at 70% 20%,var(--navy-2) 0%,var(--navy) 55%,var(--navy-3) 100%);padding:28px 0 64px;overflow:hidden}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-family:var(--serif);font-size:22px;font-weight:500}
+.brand img{width:34px;height:34px;border-radius:9px}
+.nav a.gh{color:#dfe5f3;font-size:14px;font-weight:700;text-decoration:none;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 14px}
+.nav a.gh:hover{background:rgba(255,255,255,.08)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center;margin-top:48px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6vw,64px);line-height:1.04;margin:14px 0 18px;letter-spacing:-.005em}
+.lead{font-family:var(--serif);font-size:clamp(19px,2.2vw,23px);line-height:1.45;color:#e6eaf4;margin:0 0 28px;max-width:560px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:13px 22px;font-weight:800;font-size:15px;text-decoration:none;border:1.5px solid transparent}
+.btn svg{width:19px;height:19px;flex:none}
+.btn.gold{background:var(--gold);color:#1b2a57}
+.btn.gold:hover{background:#ecd17f}
+.btn.ghost{color:#fff;border-color:rgba(255,255,255,.4)}
+.btn.ghost:hover{background:rgba(255,255,255,.08)}
+.note{font-size:13.5px;color:#c4cde3;margin-top:16px;max-width:520px}
+.phone{justify-self:center;width:min(300px,78vw);aspect-ratio:9/16;border-radius:42px;padding:9px;background:#0b1129;
+  box-shadow:0 0 0 1.5px rgba(255,255,255,.12),0 30px 70px rgba(0,0,0,.45);position:relative}
+.phone video{width:100%;height:100%;object-fit:cover;border-radius:34px;display:block;background:#1b2a57}
+.vlink{display:block;text-align:center;margin-top:14px;font-size:13px;color:#c4cde3}
+.vlink a{color:#fff;font-weight:700}
+
+/* sections */
+section{padding:72px 0}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4vw,42px);line-height:1.12;margin:0 0 12px}
+.sub{color:var(--muted);font-size:17px;max-width:640px;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px 22px}
+.card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--gold) 20%,transparent);color:var(--gold-ink);margin-bottom:14px}
+.card .ic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:17px;margin:0 0 6px;font-weight:800}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;border-block:1px solid var(--line);padding:26px 0;margin-top:8px}
+.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1.1}
+.stat span{font-size:12.5px;color:var(--muted);font-weight:700;letter-spacing:.04em}
+.next{background:var(--surface);border-block:1px solid var(--line)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.next .card{background:var(--bg)}
+.tagnew{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:10px}
+.src li{margin:6px 0;color:var(--muted)}
+.src li b{color:var(--fg);font-weight:700}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn.line{color:var(--fg);border-color:var(--line);background:var(--surface)}
+.btn.line:hover{border-color:var(--accent)}
+footer{padding:40px 0 calc(48px + env(safe-area-inset-bottom));color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+footer a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr;gap:40px;margin-top:32px}
+  .grid{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:22px}
+}
+@media (max-width:560px){
+  .grid,.two{grid-template-columns:1fr}
+  section{padding:56px 0}
+  .btn{flex:1 1 auto;justify-content:center}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){.phone video{display:none}.phone{background:#0b1129 url(media/poster.jpg) center/cover;}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="./"><img src="icons/icon-192.png" alt="" width="34" height="34">Seventy-Three</a>
+      <a class="gh" href="https://github.com/faustogq/seventy-three">GitHub</a>
+    </nav>
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Free · Offline · Open source</div>
+        <h1>The Catholic Bible as a feed</h1>
+        <p class="lead">Each of the 73 books of the Douay-Rheims Bible is an account that posts its verses. Other books reply with cross-references, and the Church Fathers and the saints comment in their own words.</p>
+        <div class="ctas">
+          <a class="btn gold" href="%APP%"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 6v13" stroke="currentColor" stroke-width="2"/></svg>Open the app</a>
+          <a class="btn ghost" href="https://github.com/faustogq/seventy-three/releases/latest/download/Seventy-Three.apk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Android app</a>
+        </div>
+        <p class="note">On iPhone, open the app in Safari and tap <b>Share › Add to Home Screen</b>. It works offline from then on. On Android, install the app or add the web version from Chrome's menu.</p>
+      </div>
+      <div>
+        <div class="phone">
+          <video src="media/seventy-three-720.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A 45-second tour of the app: the feed, cross-references, the Fathers, a saint's profile and today's readings"></video>
+        </div>
+        <span class="vlink">Share the video: <a href="media/seventy-three-1080x1920.mp4" download>download it (MP4, 14 MB)</a></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>Scripture, the Fathers and the saints in one place</h2>
+      <p class="sub">Everything in the app comes from the Church's own tradition, in public-domain editions, with every source credited.</p>
+      <div class="grid">
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></div>
+          <h3>Scripture answers Scripture</h3><p>Open any verse and the other books reply: 464,000 cross-references you can follow from book to book. The deuterocanonical books get theirs from the verses Haydock and Challoner cite.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M7 4h11a2 2 0 0 1 2 2v1h-4M7 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7M7 4a2 2 0 0 1 2 2v12"/><path d="M11 9h4M11 12h4M11 15h3"/></svg></div>
+          <h3>The Fathers on every verse</h3><p>More than 52,000 comments from the Catena Aurea of St. Thomas Aquinas, the Ante-Nicene and Nicene Fathers, Haydock's commentary and Challoner's notes.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><circle cx="12" cy="14" r="3"/><path d="M6 22c0-3.3 2.7-5 6-5s6 1.7 6 5"/></svg></div>
+          <h3>Saints in their own words</h3><p>1,033 saints and blesseds with feast days and patronages, and about 1,400 quotations taken word for word from their writings.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg></div>
+          <h3>Pray with the Church today</h3><p>The liturgical day and colour, the Mass readings in the Douay-Rheims text, the saints of the day and the Roman Martyrology. General Roman Calendar, United States or Canada, through 2030.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg></div>
+          <h3>Read, save, listen</h3><p>Bookmarks, notes and a Bible-in-a-year plan. Have chapters read aloud, and share any verse or quotation as an image.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Yours alone</h3><p>No account, no ads, no tracking. What you save stays on your device, and the whole app works without internet.</p></div>
+      </div>
+      <div class="stats" aria-label="In numbers">
+        <div class="stat"><b>73</b><span>books</span></div>
+        <div class="stat"><b>35,811</b><span>verses</span></div>
+        <div class="stat"><b>464,000</b><span>cross-references</span></div>
+        <div class="stat"><b>52,000</b><span>comments</span></div>
+        <div class="stat"><b>1,033</b><span>saints</span></div>
+        <div class="stat"><b>1,437</b><span>quotations</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="next">
+    <div class="wrap">
+      <h2>Coming next</h2>
+      <p class="sub">Seventy-Three is growing. The next steps will let people take part.</p>
+      <div class="two">
+        <div class="card"><span class="tagnew">Community</span><h3>A place to talk about the Word</h3><p>Share reflections and prayer requests, and discuss each verse with others who are reading it too.</p></div>
+        <div class="card"><span class="tagnew">AI guides</span><h3>Guides that speak only when you invite them</h3><p>Clearly labelled AI guides, such as a historian, a linguist or the voice of the Fathers, that answer only when you ask. They check every Scripture quotation against the Douay-Rheims and never take the place of a priest.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Built in the open</h2>
+      <p class="sub">The code is open source and every text comes from a public-domain edition or an open project. Each translation of the saints' words was checked to be free to share worldwide.</p>
+      <ul class="src">
+        <li><b>Bible:</b> Douay-Rheims, Challoner revision, 1899</li>
+        <li><b>Cross-references:</b> OpenBible.info (CC BY), plus the citations in Haydock and Challoner</li>
+        <li><b>Commentary:</b> Catena Aurea (1841–45), Ante-Nicene and Nicene Fathers, Haydock (1859), Challoner</li>
+        <li><b>Saints and calendar:</b> romcal, the Roman Martyrology (1908), the Liturgical Calendar API</li>
+      </ul>
+      <div class="links">
+        <a class="btn line" href="https://github.com/faustogq/seventy-three">Source code</a>
+        <a class="btn line" href="https://github.com/faustogq/seventy-three/blob/main/THIRD_PARTY.md">All sources and licenses</a>
+        <a class="btn line" href="https://github.com/faustogq/seventy-three/issues">Report a mistake</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Seventy-Three is not an official publication of the Catholic Church. Code under the MIT license; original content under CC BY 4.0.
+    Fonts: EB Garamond and Manrope (<a href="fonts/OFL-EBGaramond.txt">SIL Open Font License</a>).
+  </div>
+</footer>
+<script>
+// pause the tour when it is off screen; respect a viewer's reduced-motion setting
+(()=>{const v=document.querySelector('.phone video');if(!v)return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause();return}
+  if('IntersectionObserver' in window)new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)v.play().catch(()=>{});else v.pause()}),{threshold:.2}).observe(v);
+})();
+</script>
+</body>
+</html>

@@ -20,3 +20,6 @@ v6/
 LEEME.md
 .claude/
 .DS_Store
+
+# website build output
+dist-site/
