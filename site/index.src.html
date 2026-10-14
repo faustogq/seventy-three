@@ -52,6 +52,10 @@ h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6vw,64px);line-
 .phone{justify-self:center;width:min(300px,78vw);aspect-ratio:9/16;border-radius:42px;padding:9px;background:#0b1129;
   box-shadow:0 0 0 1.5px rgba(255,255,255,.12),0 30px 70px rgba(0,0,0,.45);position:relative}
 .phone video{width:100%;height:100%;object-fit:cover;border-radius:34px;display:block;background:#1b2a57}
+.sound{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);display:inline-flex;align-items:center;gap:7px;border:0;border-radius:999px;
+  padding:9px 15px;background:rgba(11,17,41,.82);color:#fff;font:800 13px var(--sans);cursor:pointer;backdrop-filter:blur(6px);box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.sound svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.sound:hover{background:rgba(11,17,41,.95)}
 .vlink{display:block;text-align:center;margin-top:14px;font-size:13px;color:#c4cde3}
 .vlink a{color:#fff;font-weight:700}
 
@@ -92,7 +96,7 @@ footer a{color:inherit}
   .btn{flex:1 1 auto;justify-content:center}
   .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
-@media (prefers-reduced-motion:reduce){.phone video{display:none}.phone{background:#0b1129 url(media/poster.jpg) center/cover;}}
+
 </style>
 </head>
 <body>
@@ -116,9 +120,10 @@ footer a{color:inherit}
       </div>
       <div>
         <div class="phone">
-          <video src="media/seventy-three-720.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A 45-second tour of the app: the feed, cross-references, the Fathers, a saint's profile and today's readings"></video>
+          <video src="media/seventy-three-720.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A 47-second narrated tour of the app: the feed, cross-references, the Fathers, a saint's profile and today's readings"></video>
+          <button class="sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span>Sound on</span></button>
         </div>
-        <span class="vlink">Share the video: <a href="media/seventy-three-1080x1920.mp4" download>download it (MP4, 14 MB)</a></span>
+        <span class="vlink">Share the video: <a href="media/seventy-three-1080x1920.mp4" download>download it (MP4, 14 MB, with sound)</a></span>
       </div>
     </div>
   </div>
@@ -188,12 +193,16 @@ footer a{color:inherit}
   <div class="wrap">
     Seventy-Three is not an official publication of the Catholic Church. Code under the MIT license; original content under CC BY 4.0.
     Fonts: EB Garamond and Manrope (<a href="fonts/OFL-EBGaramond.txt">SIL Open Font License</a>).
+    The video's narration is an AI voice made with <a href="https://huggingface.co/hexgrad/Kokoro-82M">Kokoro</a> (Apache 2.0); its organ music was composed for it.
   </div>
 </footer>
 <script>
 // pause the tour when it is off screen; respect a viewer's reduced-motion setting
-(()=>{const v=document.querySelector('.phone video');if(!v)return;
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause();return}
+(()=>{const v=document.querySelector('.phone video'),b=document.querySelector('.sound');if(!v)return;
+  // the tour starts muted (browsers require it); the button restarts it with the narration
+  if(b)b.addEventListener('click',()=>{const on=v.muted;v.muted=!on;if(on){v.currentTime=0;v.play().catch(()=>{})}
+    b.setAttribute('aria-pressed',String(on));b.querySelector('span').textContent=on?'Sound off':'Sound on'});
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause();v.controls=true;if(b)b.hidden=true;return}
   if('IntersectionObserver' in window)new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)v.play().catch(()=>{});else v.pause()}),{threshold:.2}).observe(v);
 })();
 </script>
