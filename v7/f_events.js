@@ -163,6 +163,7 @@ document.addEventListener('click',async e=>{
   if(d.smore){V.smore=(V.smore||(V.name==='today'?12:60))+60;render();return}
   if(d.mmore){V.mmore=true;render();return}
   if(d.expand){expanded[d.expand]=!expanded[d.expand];render();return}
+  if(d.orig){V.orig=!V.orig;render();return}
   if(d.alltrail){V.allTrail=true;render();return}
   if(d.ptab){V.ptab=d.ptab;V.focus=null;render();return}
   if(d.btab){V.btab=d.btab;render();return}

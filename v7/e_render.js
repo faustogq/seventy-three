@@ -101,7 +101,9 @@ function verseCard(x){
       </div>
     </div></article>`;
 }
-function quoteSrc(q){return `${esc(q.w)}${q.l?`, ${esc(q.l)}`:''}${q.tr?` · tr. ${esc(q.tr)}`:''}${q.y?` (${esc(q.y)})`:''}`}
+function quoteSrc(q){
+  if(q.xl)return `${esc(q.w)}${q.l?`, ${esc(q.l)}`:''} · translated from the ${esc(q.xl)} for Seventy-Three`;
+  return `${esc(q.w)}${q.l?`, ${esc(q.l)}`:''}${q.tr?` · tr. ${esc(q.tr)}`:''}${q.y?` (${esc(q.y)})`:''}`}
 function quoteCard(x){
   const q=QBY[x.i];if(!q)return '';const a=ACC[q.s];
   return `<article class="post ${S.newIds['q'+q.i]?'just':''}" data-quote="${q.i}">
@@ -276,6 +278,7 @@ function renderVerse(){
 }
 
 /* ---- Quote page ---- */
+const LANGCODE={Latin:'la',Greek:'grc',French:'fr',Italian:'it',Spanish:'es',German:'de',Armenian:'xcl',Syriac:'syr'};
 function renderQuote(){
   const q=QBY[V.id];if(!q){V={name:'feed'};return render()}
   const a=ACC[q.s],on=!!M.me.bookmarks['q'+q.i];
@@ -290,7 +293,9 @@ function renderQuote(){
       <button class="btn ${liked('q'+q.i)?'liked':''}" data-like="q${q.i}" aria-pressed="${liked('q'+q.i)}">${svg(I.heart)}${liked('q'+q.i)?'Liked':'Like'}</button>
       <button class="btn ${on?'on':''}" data-mark="q${q.i}" aria-pressed="${on}">${svg(I.mark)}${on?'Saved':'Save'}</button>
       <button class="btn" data-speak="q${q.i}">${svg(speaking==='q'+q.i?I.stop:I.speak)}${speaking==='q'+q.i?'Stop':'Listen'}</button>
-      <button class="btn" data-img="q${q.i}">${svg(I.image)}Image</button></div></div>`;
+      <button class="btn" data-img="q${q.i}">${svg(I.image)}Image</button>
+      ${q.o?`<button class="btn ${V.orig?'on':''}" data-orig="1" aria-pressed="${!!V.orig}">${svg(I.read)}${V.orig?'Hide':'Show'} the original</button>`:''}</div>
+    ${q.o&&V.orig?`<div class="orig"><div class="lbl">Original ${esc(q.xl||'')}</div><div class="qtext" lang="${esc(LANGCODE[q.xl]||'')}">${esc(q.o)}</div><div class="src">${esc(q.oe||'')}</div></div>`:''}</div>`;
   const rest=pick.length?`<div class="sortbar"><span>More from ${esc(a?a.n:'this saint')}</span>${more.length>pick.length&&a?`<button class="btn" data-acct="${esc(a.id)}">All ${more.length+1}</button>`:''}</div>`+pick.map(x=>quoteCard({i:x.i,why:''})).join(''):'';
   $('#main').innerHTML=topBar(esc(a?a.n:'Quote'),esc(q.w))+focus+rest;
 }
@@ -461,7 +466,7 @@ function renderCredits(){
   const L=(href,t)=>`<a href="${esc(href)}" target="_blank" rel="noopener">${esc(t)}</a>`;
   const sec=(h,items)=>`<div class="section"><h3>${h}</h3>${items.map(x=>`<p class="cred">${x}</p>`).join('')}</div>`;
   const C=CREDITS;
-  const works=C&&C.works?C.works.map(w=>`<li><b>${esc(w.saint)}</b>, <i>${esc(w.work)}</i>${w.tr?`, tr. ${esc(w.tr)}`:''}${w.y?` (${esc(w.y)})`:''}${/^https?:\/\//.test(w.url||'')?` · ${L(w.url,'source')}`:''}</li>`).join(''):'';
+  const works=C&&C.works?C.works.map(w=>`<li><b>${esc(w.saint)}</b>, <i>${esc(w.work)}</i>${w.xl?`, translated from the ${esc(w.xl)} (original: ${esc(w.oe||'')})`:w.tr?`, tr. ${esc(w.tr)}`:''}${!w.xl&&w.y?` (${esc(w.y)})`:''}${/^https?:\/\//.test(w.url||'')?` · ${L(w.url,'source')}`:''}</li>`).join(''):'';
   const lic=f=>`<a href="data/licenses/${f}" target="_blank" rel="noopener">license text</a>`;
   $('#main').innerHTML=topBar('Sources and credits','Everything in this app and where it comes from')+
   `<div class="section"><p class="cred" style="margin-top:0">Seventy-Three is not an official publication of the Catholic Church. Its texts are public-domain editions; its data comes from the open projects below, which we thank. Where a source requires attribution or a license notice, it is given here.</p></div>`+
@@ -481,7 +486,7 @@ function renderCredits(){
     `<b>The Roman Martyrology</b>, English translation of 1908 (public domain), text from ${L('https://github.com/DivinumOfficium/divinum-officium','Divinum Officium')} (MIT license, ${lic('divinum-officium-MIT.txt')}).`,
     `Profiles, dates and patronages were written for this app with the help of AI and checked against public sources: the Catholic Encyclopedia (1907–14, public domain), Butler's Lives of the Saints, Wikidata (CC0) and Wikipedia (${L('https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA')}). Mistakes are possible; corrections are welcome.`,
     `The emblems were drawn for this app after the traditional symbols listed in F. C. Husenbeth, <i>Emblems of Saints</i> (1882).`])+
-  `<div class="section"><h3>Words of the saints</h3><p class="cred" style="margin-top:0">Every quotation is copied word for word from a public-domain English translation and was checked against it.</p>${works?`<ul class="credlist">${works}</ul>`:'<p class="hint">Loading the list…</p>'}</div>`+
+  `<div class="section"><h3>Words of the saints</h3><p class="cred" style="margin-top:0">Most quotations are copied word for word from public-domain English translations and were checked against them. Where no free English translation exists, the words were translated for Seventy-Three from the original Latin, Greek, French, Italian or Spanish, with the help of AI, and checked against the original by a second review. Those quotations say so, and their original text is one tap away. These translations are under CC BY 4.0.</p>${works?`<ul class="credlist">${works}</ul>`:'<p class="hint">Loading the list…</p>'}</div>`+
   sec('Calendar and readings',[
     `Liturgical days, ranks, colours and national calendars from the ${L('https://github.com/Liturgical-Calendar/LiturgicalCalendarAPI','Liturgical Calendar API')} by John R. D'Orazio and contributors (Apache License 2.0, ${lic('litcal-Apache-2.0.txt')}).`,
     `Reading references from the Liturgical Calendar API's lectionary data and the ${L('https://github.com/jayarathina/Tamil-Catholic-Lectionary','Tamil Catholic Lectionary')} (public domain, The Unlicense), cross-checked with ${L('https://github.com/sawirricardo/sate','sate')} (MIT license, ${lic('sate-MIT.txt')}) and against the <i>Ordo Lectionum Missae</i> (1981). The readings are shown in the Douay-Rheims text.`])+
@@ -567,7 +572,7 @@ function focusKey(el){
   const main=document.getElementById('main');
   if(!el||el===document.body||!main||!main.contains(el))return null;
   if(el.id)return '#'+CSS.escape(el.id);
-  for(const a of ['like','mark','xsort','xfilt','ffilt','ptab','btab','atab','mtab','tab','mix','calsel','dlall','export','verse','quote','trailpos','moreref','fmore','alltrail','bookmore','follow','stype','expand','smore','cmore','mmore','plandone','planstart','planreset','speak','savenote','editnote','img','copy','read'])
+  for(const a of ['like','mark','xsort','xfilt','ffilt','ptab','btab','atab','mtab','tab','mix','calsel','dlall','export','verse','quote','trailpos','moreref','fmore','alltrail','bookmore','follow','stype','expand','orig','smore','cmore','mmore','plandone','planstart','planreset','speak','savenote','editnote','img','copy','read'])
     if(el.dataset&&el.dataset[a]!=null)return `[data-${a}="${CSS.escape(el.dataset[a])}"]`;
   return null;
 }

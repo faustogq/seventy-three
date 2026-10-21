@@ -36,6 +36,7 @@ Where each file comes from is in [THIRD_PARTY.md](../THIRD_PARTY.md). The script
 ## `quotes.json`
 
 - `q[]`: `i` (id), `s` (saint id), `t` (the quotation), `w` (work), `l` (location in the work), `tr` (translator), `y` (year of the translation), `g` (related verse or -1), `th` (themes).
+- Quotations translated for this app from the original language also have `xl` (the language, e.g. "Latin"), `o` (the original text, copied from the edition) and `oe` (the edition and its year); their `tr` is empty.
 
 ## `credits.json`
 

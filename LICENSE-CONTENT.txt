@@ -8,14 +8,17 @@ International License (CC BY 4.0), reproduced below. That covers:
 
   - the saint and writer profiles (biographies, dates, patronages, types) in data/saints.json,
   - the saint emblems and the book icons and book descriptions (data/saints.json, build/books.json),
-  - the app icon (build/icons) and the app's design.
+  - the app icon (build/icons) and the app's design,
+  - the English translations made for this app (quotations in data/quotes.json that have an "xl" field).
 
 Attribution: "Seventy-Three (https://github.com/faustogq/seventy-three), CC BY 4.0".
 
 Everything else in data/ comes from public-domain works or from projects with their own licenses,
 listed in THIRD_PARTY.md. Those parts keep their own terms.
 
-The saint profiles were written with the help of AI and checked against public sources.
+The saint profiles were written with the help of AI and checked against public sources. The translations made for
+this app were done with the help of AI from public-domain original-language editions and checked against the original
+by a second, independent review; the original text is kept with each one.
 
 -----------------------------------------------------------------------
 
