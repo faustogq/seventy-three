@@ -23,3 +23,6 @@ LEEME.md
 
 # website build output
 dist-site/
+
+# downloaded source texts for the quotations (kept locally, survive reboots)
+sources/

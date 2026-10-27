@@ -36,12 +36,26 @@ def verse_g(ref):
     return key2g.get((code, int(m.group(2)), int(m.group(3))), -1) if code else -1
 
 def norm(s):
-    for a, b in (('’', "'"), ('‘', "'"), ('“', '"'), ('”', '"'), ('«', '"'), ('»', '"'), ('­', '')):
+    for a, b in (('’', "'"), ('‘', "'"), ('“', '"'), ('”', '"'), ('«', '"'), ('»', '"'), ('­', ''), ("''", '"')):
         s = s.replace(a, b)
-    s = re.sub(r'(\w)-\s*\n\s*(\w)', r'\1\2', s)
-    return re.sub(r'\s+', ' ', s).strip()
-def short_locator(l):
-    """Keeps a location readable: cut after its first complete clause when it runs long, never inside parentheses."""
+    s = re.sub(r'(\w)[-¬]\s*\n\s*(\w)', r'\1\2', s)
+    s = re.sub(r'¬\s*', '', s)                                   # OCR line-break hyphen
+    s = re.sub(r'\s+', ' ', s).strip()
+    s = re.sub(r' ([?!;:])', r'\1', s)                          # old typesetting: "Mother !", "hope :"
+    return re.sub(r' ?— ?', '—', s)
+def clean_src(s):
+    """Drops page apparatus from the downloaded texts: Corpus Corporum footnote blocks and page markers, [n] note numbers."""
+    s = re.sub(r'\n_{20,}\n(?:[ \t]+\d+:[^\n]*\n|[ \t]*\n)*', '\n', s)
+    s = re.sub(r'-{10,}\[page [^\]]*\]-{10,}', ' ', s)
+    return re.sub(r'\[\d+\]', '', s)
+def key(s):
+    """Form used only to find a passage in its source: hyphens dropped, since line-break joins can't tell them apart."""
+    return norm(s).replace('-', '')
+def short_locator(l, work=''):
+    """Keeps a location readable: drops a repeat of the work's title, and cuts after its first complete clause when it runs
+    long, never inside parentheses."""
+    if work and l.lower().startswith(work.lower()) and l[len(work):len(work) + 1] in ('', ',', ';'):
+        l = l[len(work) + 1:].strip()
     if len(l) <= 120: return l
     depth = 0
     for i, ch in enumerate(l):
@@ -66,19 +80,19 @@ for r in res['results']:
         ed = s['edition']
         folder = os.path.dirname(ed['local_file'])
         files = sorted(set(glob.glob(os.path.join(folder, '**', '*.txt'), recursive=True)) | {ed['local_file']})
-        src = norm('\n'.join(open(f, encoding='utf-8', errors='replace').read() for f in files if os.path.exists(f)))
+        src = key(clean_src('\n'.join(open(f, encoding='utf-8', errors='replace').read() for f in files if os.path.exists(f))))
         if not src: dropped[sid + ' (files missing)'] += len(s['quotes']); continue
         own = s.get('own_translation', True)
         for i, x in enumerate(s['quotes']):
             v = by.get(i)
             if not v or not v['keep']: dropped[sid + ' (reviewer)'] += 1; continue
             text = norm(v.get('corrected_text') or x['text'])
-            if norm(x['original'] if own else x['text']) not in src: dropped[sid + ' (not verbatim)'] += 1; continue
+            if key(x['original'] if own else x['text']) not in src: dropped[sid + ' (not verbatim)'] += 1; continue
             if text.lower() in seen: dropped[sid + ' (duplicate)'] += 1; continue
             qid = hashlib.sha1((sid + text).encode()).hexdigest()[:8]
             while qid in ids: qid = hashlib.sha1(qid.encode()).hexdigest()[:8]
             ids.add(qid); seen.add(text.lower())
-            rec = {'i': qid, 's': sid, 't': text, 'w': x['work'], 'l': short_locator(x.get('locator', '')), 'g': verse_g(x.get('verse')),
+            rec = {'i': qid, 's': sid, 't': text, 'w': x['work'], 'l': short_locator(x.get('locator', ''), x['work']), 'g': verse_g(x.get('verse')),
                    'th': [t.lower() for t in x.get('themes', [])][:4]}
             if own: rec.update({'tr': '', 'y': '', 'xl': x['language'], 'o': norm(x['original']), 'oe': f"{ed['title']} ({ed['year']})"})
             else: rec.update({'tr': ed.get('english_translator', ''), 'y': str(ed['year'])[:4]})

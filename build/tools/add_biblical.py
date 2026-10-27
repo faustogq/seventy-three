@@ -127,6 +127,10 @@ Q = [
  ('zachary_father_of_john_the_baptist', 'LUK 1:76-79', 'And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways: To give knowledge of salvation to his people, unto the remission of their sins: Through the bowels of the mercy of our God, in which the Orient from on high hath visited us: To enlighten them that sit in darkness, and in the shadow of death: to direct our feet into the way of peace.', ['benedictus', 'mercy', 'light']),
  ('simeon_the_righteous', 'LUK 2:29-32', 'Now thou dost dismiss thy servant, O Lord, according to thy word in peace; Because my eyes have seen thy salvation, Which thou hast prepared before the face of all peoples: A light to the revelation of the Gentiles, and the glory of thy people Israel.', ['nunc dimittis', 'peace', 'light']),
  ('simeon_the_righteous', 'LUK 2:34-35', 'Behold this child is set for the fall, and for the resurrection of many in Israel, and for a sign which shall be contradicted; And thy own soul a sword shall pierce, that, out of many hearts, thoughts may be revealed.', ['prophecy', 'mary', 'sorrow']),
+ # Barnabas spoke these together with St. Paul
+ ('barnabas_apostle', 'ACT 13:47', 'For so the Lord hath commanded us: I have set thee to be the light of the Gentiles; that thou mayest be for salvation unto the utmost part of the earth.', ['mission', 'light', 'all nations']),
+ ('barnabas_apostle', 'ACT 14:14', 'Ye men, why do ye these things? We also are mortals, men like unto you, preaching to you to be converted from these vain things, to the living God, who made the heaven, and the earth, and the sea, and all things that are in them', ['humility', 'conversion', 'creation']),
+ ('barnabas_apostle', 'ACT 14:21', 'through many tribulations we must enter into the kingdom of God.', ['perseverance', 'suffering', 'kingdom']),
 ]
 
 NEW = [

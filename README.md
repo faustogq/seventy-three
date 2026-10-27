@@ -9,7 +9,7 @@
 - **The whole Catholic Bible**: the Douay-Rheims (Challoner revision, 1899), all 73 books and 35,811 verses, with each verse's number in modern Bibles where it differs.
 - **Books answering books**: 464,000 cross-references from OpenBible.info, shown as replies you can follow from verse to verse. The deuterocanonical books get theirs from the verses that Haydock and Challoner cite.
 - **The Fathers on every verse**: over 52,000 comments from the Catena Aurea of St. Thomas Aquinas, the Ante-Nicene and Nicene Fathers, Haydock's commentary and Challoner's notes.
-- **Saints**: 1,033 saints and blesseds with profiles, feast days and patronages, plus about 1,400 quotations copied word for word from public-domain translations of their own writings.
+- **Saints**: 1,037 saints and blesseds with profiles, feast days and patronages. 158 accounts, from the Blessed Virgin and the apostles to the Didache and St. Bernadette, post their own words: about 2,600 quotations, copied word for word from public-domain translations, or translated for this app from the original, which is shown alongside.
 - **Today**: the liturgical day and colour, the Mass readings in the Douay-Rheims text (General Roman Calendar, United States or Canada, through 2030), the saints of the day, the Roman Martyrology and a Bible-in-a-year plan.
 - **Yours, on your device**: likes, bookmarks, notes, the books and saints you follow, and your reading plan. Back them up to a file and load it on another device.
 - **Read aloud, share as an image, search** verses, books and saints.

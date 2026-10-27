@@ -142,3 +142,29 @@ Translations of saints added after the first audit, each checked the same way.
 | Antonio Isoleri (died 1932) | St. Mary Magdalene de' Pazzi | 1900 | Public domain |
 | Translated for this app from the Latin | St. Stephen of Hungary (*Admonitions*, ed. Endlicher 1849) and St. Romuald (Lives by St. Peter Damian and Bruno of Querfurt) | editions before 1931 | Original text shown with each quotation |
 | Douay-Rheims (1899) | The saints of the Bible, in their own words | 1899 | Public domain |
+
+## Added later (27 October 2026)
+
+| Translator | Saint and work | Published | Decision |
+|---|---|---|---|
+| Hugh G. Evelyn-White (died 1924) | St. Paulinus of Nola, verse letters to Ausonius (Loeb *Ausonius*, vol. II) | 1921 | Public domain |
+| Robert Ernest Wallis (doctor by 1868, so dead before 1955) | St. Cornelius, letter to St. Cyprian (ANF 5) | 1868–69, 1886 | Public domain |
+| Arthur Cushman McGiffert (died 1933) | St. Cornelius, letter to Fabius in Eusebius' *Church History* (NPNF II/1) | 1890 | Public domain |
+| Anonymous, ed. F. W. Faber (died 1863) | St. Camillus de Lellis and St. Rose of Lima, Oratorian *Saints and Servants of God* | 1847–50 | Public domain |
+| Lady Herbert of Lea (died 1911) | St. Cajetan, *The Life of Saint Gaëtan* | 1873 | Public domain |
+| Lady Georgiana Fullerton (died 1885) | St. Frances of Rome, *The Life of St. Frances of Rome* | 1855 | Public domain |
+| Alice, Lady Lovat (died 1938) | St. Louise de Marillac, *Life of the Venerable Louise de Marillac* | 1916–17 | Public domain |
+| Francis Deming Hoyt (born 1843) | St. Elizabeth of Hungary, Montalembert's *Life* | 1904 | Public domain (born 1843, so dead before 1955). Two renderings that add to the eyewitness record were left out |
+| Anonymous (Catholic Truth Society), ed. Fr. Pamphile De Veuster (died 1908) | St. Damien of Molokai, *Life and Letters of Father Damien* | 1889 | Public domain |
+| Anonymous ("M. B.") | St. Bernadette, *The Lily of Mary* | 1918 | Public domain |
+| Anonymous (Missionary Sisters of the Sacred Heart) | St. Frances Xavier Cabrini, *Travels of Mother Frances Xavier Cabrini* | c. 1925 (text from the 1944 reprint of it) | Public domain |
+| Lady Herbert of Lea (died 1911), revised by James Anthony Walsh (died 1936) | St. Théophane Vénard, *A Modern Martyr* | 1913 | Public domain |
+| Anonymous ("translated from the French") | St. John Gabriel Perboyre, *Life of Blessed John Gabriel Perboyre* (Baltimore) | 1894 | Public domain |
+| Anonymous ("a Catholic Priest") | St. Paul Miki, in Boero's *The Jesuit Martyrs of Japan* | 1862 | Public domain |
+| Florence Gilmore (died 1945) | St. Peter Chanel, *The Martyr of Futuna* | 1917 | Public domain |
+| Translated for this app from the Latin | St. Gregory VII (*Register*, Migne PL 148, 1853; Jaffé 1865), St. Martin I (letters, PL 87), St. Eusebius of Vercelli (letters, PL 12), St. Pius V (*Bullarium Romanum*, Turin 1862), St. Peter Canisius (*Confessions* and *Testament*, Braunsberger 1896), St. Scholastica (St. Gregory's *Dialogues* II.33, PL 66) | editions before 1931 | Original text shown with each quotation |
+| Translated for this app from the French | St. Marie of the Incarnation (*Lettres*, ed. Richaudeau 1876), St. Andrew Kim Taegon (letters, in Dallet's *Histoire de l'Église de Corée*, 1874) | editions before 1931 | Original text shown with each quotation |
+| Translated for this app from the German | St. Nicholas of Flüe (Ming 1861; his letter to Bern, ed. Amiet 1843) | editions before 1931 | Original text shown with each quotation |
+| Douay-Rheims (1899) | St. Barnabas, his words with St. Paul in the Acts of the Apostles | 1899 | Public domain |
+
+Not found this time: St. Anthony Mary Zaccaria and St. Jerome Emiliani (no digital text of a pre-1931 edition of their letters).
